@@ -5,7 +5,7 @@ function examplesConfig() {
     const config = defaultConfig();
     config.entry = './examples/index.ts';
     config.devServer = {
-        port: 9000,
+        port: 5047,
         hot: true,
         open: true
     };
